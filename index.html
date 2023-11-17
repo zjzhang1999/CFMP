@@ -217,7 +217,9 @@
         <div id="results-carousel" class="carousel results-carousel">
           <div class="item item-steve">
             <video poster="" id="steve" autoplay controls muted loop height="100%">
-              <source src="./media/videos/1005ffd7b942c362f271825e3cfdc080.mp4" type="video/mp4">
+              
+              <source src="./media/videos/sigmoid-0-1e-4" type="video/mp4">
+              <!--source src="./media/videos/1005ffd7b942c362f271825e3cfdc080.mp4" type="video/mp4"-->
             </video>
           </div>
           <div class="item item-fullbody">
@@ -425,10 +427,10 @@
                 Trained with
                 <div class="select is-small">
                   <select id="single-menu-demos" onchange="updateSingleVideo()">
-                    <option value="ReLU">ReLU</option>
+                    <option value="relu">relu</option>
                     <option value="w/o ReLU">w/o ReLU</option>
                     <option value="Tanh">Tanh</option>
-                    <option value="Sigmoid" selected="selected">Sigmoid</option>
+                    <option value="sigmoid" selected="selected">sigmoid</option>
                   </select>
                 </div>
                 activation, with dropout rate
@@ -454,7 +456,7 @@
                   alt=""-->
                  <video id="single-task-result-video" controls muted autoplay loop width="100%">
                   <source
-                    src="./media/web-results/Sigmoid-0-1e-4.mp4"
+                    src="./media/web-results/sigmoid-0-1e-4.mp4"
                     type="video/mp4">
                
                 </video> 
@@ -470,7 +472,7 @@
                     <option value="ReLU">ReLU</option>
                     <option value="w/o ReLU">w/o ReLU</option>
                     <option value="Tanh">Tanh</option>
-                    <option value="Sigmoid" selected="selected">Sigmoid</option>
+                    <option value="sigmoid" selected="selected">sigmoid</option>
                   </select>
                 </div>
                 activation, with dropout rate
