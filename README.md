@@ -1,6 +1,6 @@
 # CFMP
 
-This is the repository that contains source code for CFMP as well as the [CFMP website](https://nerfies.github.io).
+This is the repository that contains source code for CFMP as well as the [CFMP website]([https://nerfies.github.io](https://zjzhang1999.github.io/cfmp_new.github.io/)).
 
 If you find CFMP useful for your work please cite:
 ```
